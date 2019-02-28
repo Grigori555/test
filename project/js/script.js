@@ -41,7 +41,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
                 cartWrapper.appendChild(item);
                 if (empty) {
-                    empty.remove();
+                    empty.remove(); // удаление надписи пустая корзина
                 }
 
             });
